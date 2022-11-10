@@ -1,0 +1,215 @@
+body{
+    background-color: rgb(158, 157, 157);
+}
+
+
+.geral {
+    position: relative;
+    top: 50px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.iniciaricon {
+    position: relative;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 85px;
+    height: 45px;
+    background-color: rgb(201, 194, 102);
+    filter: drop-shadow(3px 3px 3px rgba(0, 0, 0, 0.479));
+    transition: .4s;
+}
+
+.iniciaricon:hover {
+    background-color: rgb(221, 230, 148);
+    transform: translateY(2px);
+    filter: drop-shadow(1px 1px 1px rgba(0, 0, 0, 0.479));  
+}
+.iniciaricon:active {
+    background-color: rgb(255, 115, 0);
+    transform: translateY(2px);
+    filter: drop-shadow(1px 1px 1px rgba(0, 0, 0, 0.479));  
+}
+
+
+.dificuldade {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: row;
+    transform: translateY(100px);
+}
+.dificuldade > div {
+    cursor: pointer;
+}
+
+.facil {
+    position: relative;
+    margin: 30px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 85px;
+    height: 45px;
+    background-color: rgb(202, 243, 248);
+    filter: drop-shadow(3px 3px 3px rgba(0, 0, 0, 0.479));
+    transition: .4s;
+}
+.facil:hover {
+    background-color: rgb(133, 169, 173);
+    transform: translateY(2px);
+    filter: drop-shadow(1px 1px 1px rgba(0, 0, 0, 0.479));
+}
+.facil:active {
+    background-color: rgb(71, 95, 97);
+    transform: translateY(2px);
+    filter: drop-shadow(1px 1px 1px rgba(0, 0, 0, 0.479));  
+}
+
+
+.normal {
+    position: relative;
+    margin: 30px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 85px;
+    height: 45px;
+    background-color: rgb(224, 160, 108);
+    filter: drop-shadow(3px 3px 3px rgba(0, 0, 0, 0.479));
+    transition: .4s;
+}
+.normal:hover {
+    background-color: rgb(196, 140, 94);
+    transform: translateY(2px);
+    filter: drop-shadow(1px 1px 1px rgba(0, 0, 0, 0.479));
+}
+.normal:active {
+    background-color: rgb(143, 96, 58);
+    transform: translateY(2px);
+    filter: drop-shadow(1px 1px 1px rgba(0, 0, 0, 0.479));  
+}
+
+
+.dificil {
+    position: relative;
+    margin: 30px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 85px;
+    height: 45px;
+    background-color: rgb(233, 91, 91);
+    filter: drop-shadow(3px 3px 3px rgba(0, 0, 0, 0.479));
+    transition: .4s;
+}
+.dificil:hover {
+    background-color: rgb(184, 69, 69);
+    transform: translateY(2px);
+    filter: drop-shadow(1px 1px 1px rgba(0, 0, 0, 0.479));
+}
+.dificil:active {
+    background-color: rgb(99, 35, 35);
+    transform: translateY(2px);
+    filter: drop-shadow(1px 1px 1px rgba(0, 0, 0, 0.479));  
+}
+
+
+.main {
+    top: 70px;
+    position: relative;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 3rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    margin: 0 auto;
+    background-color: rgb(139, 139, 139);
+    width: 450px;
+    height: 450px;
+    filter: drop-shadow(3px 3px 3px rgba(0, 0, 0, 0.562));
+}
+
+
+.main > div {
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 85px;
+    height: 85px;
+    border: 10px solid;
+    border-color: rgb(109, 109, 109);
+    filter: drop-shadow(3px 3px 3px rgba(0, 0, 0, 0.479));
+    transition: .2s;
+}
+
+
+.main > div:hover {
+    transform: translateY(-5px);
+}
+
+.main > div:active {
+    background-color: rgb(230, 240, 138);
+}
+
+.bloco1 {
+    background-color: rgb(189, 189, 189);
+}
+.bloco2 {
+    background-color: rgb(189, 189, 189);
+}
+.bloco3 {
+    background-color: rgb(167, 165, 165);
+}
+.bloco4 {
+    background-color: rgb(189, 189, 189);
+}
+.bloco5 {
+    background-color: rgb(173, 170, 170);
+}
+.bloco6 {
+    background-color: rgb(173, 172, 172);
+}
+.bloco7 {
+    background-color: rgb(189, 189, 189);
+}
+.bloco8 {
+    background-color: rgb(189, 189, 189);
+}
+.bloco9 {
+    background-color: rgb(175, 174, 174);
+}
+
+.ativar {
+    background-color: rgb(230, 240, 138);
+}
+.ativarrobo {
+    background-color: rgb(53, 242, 255);
+}
+.ganhou {
+    background-color: rgb(42, 238, 85);
+}
+.errou {
+    background-color: rgb(243, 13, 13);
+}
+.ativado {
+    background-color: rgb(77, 77, 77);
+    transform: translateY(2px);
+    filter: drop-shadow(1px 1px 1px rgba(0, 0, 0, 0.479));
+    color: aliceblue;
+}

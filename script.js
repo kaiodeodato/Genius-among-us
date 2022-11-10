@@ -2,13 +2,13 @@ var clicar = new Audio();
 clicar.src = "https://github.com/kaiodeodato/genius-among-us/raw/main/click.mp3"
 
 var robosound = new Audio();
-robosound.src = "robo.mp3"
+robosound.src = "https://github.com/kaiodeodato/genius-among-us/raw/main/robo.mp3"
 
 var score = new Audio();
-score.src = "score.mp3"
+score.src = "https://github.com/kaiodeodato/genius-among-us/raw/main/score.mp3"
 
 var erro = new Audio();
-erro.src = "erro.mp3"
+erro.src = "https://github.com/kaiodeodato/genius-among-us/raw/main/erro.mp3"
 
 
 var robojogadas = [];

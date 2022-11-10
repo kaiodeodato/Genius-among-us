@@ -1,5 +1,5 @@
 var clicar = new Audio();
-clicar.src = "click.mp3"
+clicar.src = "https://github.com/kaiodeodato/genius-among-us/raw/main/click.mp3"
 
 var robosound = new Audio();
 robosound.src = "robo.mp3"

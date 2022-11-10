@@ -1,14 +1,14 @@
 var clicar = new Audio();
-clicar.src = "sounds/click.mp3"
+clicar.src = "click.mp3"
 
 var robosound = new Audio();
-robosound.src = "sounds/robo.mp3"
+robosound.src = "robo.mp3"
 
 var score = new Audio();
-score.src = "sounds/score.mp3"
+score.src = "score.mp3"
 
 var erro = new Audio();
-erro.src = "sounds/erro.mp3"
+erro.src = "erro.mp3"
 
 
 var robojogadas = [];
